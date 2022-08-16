@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "homepage": "https://n3cker.github.io/goit-js-hw-09/",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/02-timer.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
