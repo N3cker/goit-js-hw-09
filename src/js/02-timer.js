@@ -67,7 +67,7 @@ const updateCounter = (time) => {
 btnStart.addEventListener('click', () => {
     const intervalId = setInterval(() => {
         const currentDate = new Date();
-        const remainingTime = inputDate.getTime() - currentDate.getTime();
+        const remainingTime = inputDate - currentDate;
         const convertedTime = convertMs(remainingTime);
         updateCounter(convertedTime);
 
